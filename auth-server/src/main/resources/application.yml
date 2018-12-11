@@ -20,7 +20,7 @@ spring:
   data:
     mongodb:
 #      url: mongodb://admin:123123@hd02:2700/auth_server
-      port: 2717
+      port: 2700
       database: auth_server
       host: hd02
 #      username: admin

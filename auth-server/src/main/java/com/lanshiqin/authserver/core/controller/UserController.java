@@ -4,6 +4,7 @@ import com.lanshiqin.authserver.core.entity.Account;
 import com.lanshiqin.authserver.core.repository.AccountRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.security.Principal;
@@ -12,6 +13,7 @@ import java.security.Principal;
  *  用户信息控制器
  */
 @RestController
+//@RequestMapping("auth")
 public class UserController {
 
     @Autowired

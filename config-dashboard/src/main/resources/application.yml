@@ -11,19 +11,19 @@ spring:
         #git中心配置（这里我将配置文件存储在码云上）
         git:
           #配置文件所在的服务地址
-          uri: https://gitee.com/lanshiqin/spring-cloud
+          uri: https://github.com/bluebird88/cloud-project
           #配置文件所在的文件路径
-          search-paths: service-registry-config
+          search-paths: spring-cloud/service-registry-config
           #公开的项目不需要设置用户名和密码
           username:
           password:
 
   #消息中间件配置
   rabbitmq:
-    host: 127.0.0.1
+    host: hd02
     port: 5672
-    username: guest
-    password: guest
+    username: admin
+    password: 111111
 
 #服务器配置
 server:
