@@ -35,7 +35,7 @@ eureka:
   client:
     serviceUrl:
       #配置服务中心(可配置多个,用逗号隔开)
-      defaultZone: https://www.apiboot.cn/eureka
+      defaultZone: http://localhost:9000/eureka
 
 management:
   #禁用安全管理

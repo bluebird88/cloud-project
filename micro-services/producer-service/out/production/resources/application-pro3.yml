@@ -22,7 +22,7 @@ eureka:
   client:
     serviceUrl:
       #配置服务中心(可配置多个,用逗号隔开)
-      defaultZone: https://www.apiboot.cn/eureka
+      defaultZone: http://localhost:9000/eureka
 
 #安全配置
 security:
@@ -30,5 +30,5 @@ security:
     resource:
       id: producer-service
       #指定用户信息地址
-      user-info-uri: https://api.apiboot.cn/auth/user
+      user-info-uri: http://localhost:8020/auth/user
       prefer-token-info: false

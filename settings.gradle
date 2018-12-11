@@ -1,4 +1,8 @@
 rootProject.name = 'cloud-project'
 //微服务群
 include 'micro-services'
-
+include 'service-registry'
+include 'auth-server'
+include 'api-gateway'
+include 'breaker-dashboard'
+//include 'config-dashboard'

@@ -8,7 +8,7 @@ buildscript {
 	}
 	dependencies {
 		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
-		classpath('gradle.plugin.com.palantir.gradle.docker:gradle-docker:0.13.0')
+//		classpath('gradle.plugin.com.palantir.gradle.docker:gradle-docker:0.13.0')
 	}
 }
 
@@ -24,13 +24,13 @@ repositories {
 	mavenCentral()
 }
 
-apply plugin: 'com.palantir.docker'
-
-docker {
-	name "${project.group}/${jar.baseName}"
-	files jar.archivePath
-	buildArgs(['JAR_FILE': "${jar.archiveName}"])
-}
+//apply plugin: 'com.palantir.docker'
+//
+//docker {
+//	name "${project.group}/${jar.baseName}"
+//	files jar.archivePath
+//	buildArgs(['JAR_FILE': "${jar.archiveName}"])
+//}
 
 ext {
 	springCloudVersion = 'Dalston.SR4'

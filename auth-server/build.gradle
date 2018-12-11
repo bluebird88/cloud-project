@@ -24,7 +24,8 @@ repositories {
 
 
 ext {
-	springCloudVersion = 'Dalston.SR4'
+//	springCloudVersion = 'Dalston.SR4'
+	springCloudVersion="Dalston.RELEASE"
 }
 
 dependencies {
